@@ -1,0 +1,83 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(white, grey);
+}
+
+.heading{
+    font-family: 'Goldman', cursive;
+    text-shadow: 2px 2px gray;
+    margin: 2% 3% 0 3%;
+    font-size: 3.2rem;
+}
+
+.level-info{
+    margin-top: 5px;
+}
+
+.col{
+    height: 150px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgb(110, 109, 109);
+}
+
+.container{
+    margin-top: 2%;
+    width: 30%;
+   
+}
+
+.green{
+    background-color: #006600;
+    border-radius: 20%;
+}
+
+.red{
+    background-color: rgb(255, 0, 0);
+    border-radius: 20%;
+}
+
+.yellow{
+    background-color: #ffd737;
+    border-radius: 20%;
+}
+
+.blue{
+    background-color: #0033cc;
+    border-radius: 20%;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+.pressed{
+    opacity: 0.4;
+}
+
+.unclickable {
+    pointer-events: none;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+@media (max-width : 1000px){
+    
+    .col{
+        height: 110px;
+        border: solid;
+        margin: 5px;
+    }
+}
+
+@media (max-width : 700px){
+    
+    .col{
+        height: 70px;
+        border: solid;
+        margin: 3px;
+    }
+}
